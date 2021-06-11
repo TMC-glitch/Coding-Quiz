@@ -1,0 +1,34 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 130%;
+}
+
+button {
+  margin: 50px;
+  font-size: 75%;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 4px 15px;
+  color: white;
+  border: 0;
+}
+.hide {
+  display: none;
+}
+.choices button {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+}
+.start {
+  text-align: center;
+}
+.report {
+  font-style: italic;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+}
+.timer {
+  text-align: left;
+  position: absolute;
+}
